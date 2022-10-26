@@ -12,13 +12,13 @@ CFLAGS = -pg -Wall -c -I$(INC)
 
 EXE = $(BIN)/tp3
 
-# run: $(EXE)
-# 	rm -rf output
-# 	mkdir output
-# 	$(EXE)	-i input/entrada_1.txt -o output/saida_1.txt
-# 	$(EXE)	-i input/entrada_2.txt -o output/saida_2.txt
-# 	$(EXE)	-i input/entrada_3.txt -o output/saida_3.txt
-# 	$(EXE)	-i input/entrada_4.txt -o output/saida_4.txt
+run: $(EXE)
+	rm -rf output
+	mkdir output
+	$(EXE)	-i input/entrada_1.txt -o output/saida_1.txt
+	$(EXE)	-i input/entrada_2.txt -o output/saida_2.txt
+	$(EXE)	-i input/entrada_3.txt -o output/saida_3.txt
+	$(EXE)	-i input/entrada_4.txt -o output/saida_4.txt
 
 
 
