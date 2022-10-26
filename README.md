@@ -1,4 +1,4 @@
-### EMAIL SERVER
+# EMAIL SERVER
 
 project developed in C++, for the discipline of data structures at UFMG.
 
